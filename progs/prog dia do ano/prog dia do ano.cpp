@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 int main()
 {
 	int dia, mes, ano, num_dia;
@@ -47,5 +47,6 @@ int main()
         num_dia=dia+334;
     }
     
-    printf("%d dia do ano",num_dia);
+    printf("%d dia do ano\n\n",num_dia);
+    system("pause") ;
 }
